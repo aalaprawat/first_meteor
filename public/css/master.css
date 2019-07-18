@@ -1,0 +1,21 @@
+.testimonial-group > .row {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.testimonial-group > .row > .col-xs-4 {
+  display: inline-block;
+  float: none;
+  padding: 100px;
+}
+
+.short-text {
+  display: none;
+}
+@media(max-width: 800px) {
+    .short-text {
+      display: inline-block;
+     }
+    .full-text {
+      display: none;
+     }
+}
